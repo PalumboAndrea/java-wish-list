@@ -9,7 +9,7 @@ public class MainSet {
 		
 		HashSet<Integer> numbers = new HashSet<Integer>();
 		
-		for (int i = 0; i < 5; i++) {
+		while (numbers.size() < 5) {
 			
 			numbers.add(rnd.nextInt(2, 13));
 		}
@@ -18,3 +18,4 @@ public class MainSet {
 		
 	}
 }
+	
